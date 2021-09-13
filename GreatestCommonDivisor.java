@@ -9,11 +9,9 @@ public class GreatestCommonDivisor {
 		int GCD = 1;
 		int P = 2;
 		while (P <= N1 && P <= N2) {
-		System.out.println("maradek1 = " + N1 % P);
-		System.out.println("maradek2 = " + N2 % P);
 			if (N1 % P == 0 && N2 % P == 0) {
 				GCD = P;
-				System.out.println("Actual common divisor: " + GCD);
+				//System.out.println("Actual common divisor: " + GCD);
 			}
 			P = P + 1;
 		}
